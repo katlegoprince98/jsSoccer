@@ -43,6 +43,14 @@ function drawRect(x,y,w,h, color) {
     context.fillRect(x,y,w,h);  
 }
 
+const net = {
+    x:canvas.width - 1,
+    y:0,
+    width:2,
+    height: 10,
+    color: "WHITE"
+
+}
 
 
 
