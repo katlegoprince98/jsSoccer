@@ -89,3 +89,8 @@ function render(){
     drawRect(com.x,com.y,com.width,com.height,com.color);
     drawCircle(ball.x,ball.y,ball.radius,ball.color);
 }
+
+function game() {
+ render();
+
+}
