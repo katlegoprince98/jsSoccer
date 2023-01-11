@@ -3,7 +3,7 @@
 const canvas = document.getElementById('myCanvas');
 const context = canvas.getContext('2d');
 
-function drawRect(){
+function drawRect(x,y,w,h) {
     context.fillStyle = color;
     context.fillRect(x,y,w,h);  
 }
