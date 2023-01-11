@@ -14,11 +14,11 @@ drawRect(0,0,canvas.width,canvas.height, "green");
 //drawCircle
 
 function drawCircle(x,y,r,color){
-   canvas.fillStyle = color;
-   canvas.beginPath();
-   canvas.arc(x,y,r,0,Math.PI*2,false);
-   canvas.closePath();
-   canvas.fill();
+    context.fillStyle = color;
+    context.beginPath();
+    context.arc(x,y,r,0,Math.PI*2,false);
+    context.closePath();
+    context.fill();
 }
 
-drawCircle(0,0,50,"white")
+drawCircle(100,100,50,"white")
