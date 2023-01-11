@@ -71,4 +71,7 @@ drawText("Score",300,300,"white");
 
 function render(){
     drawRect(0,0,canvas.width,canvas.height, "green");
+    drawNet();
+    drawText(user.score,canvas.width/4,context.height/5,"WHITE");
+    drawText(com.score,canvas.width/4,context.height/5,"WHITE");
 }
