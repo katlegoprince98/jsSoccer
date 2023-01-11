@@ -43,7 +43,7 @@ function drawRect(x,y,w,h, color) {
     context.fillRect(x,y,w,h);  
 }
 
-drawRect(0,0,canvas.width,canvas.height, "green");
+
 
 
 //drawCircle
@@ -67,3 +67,8 @@ function drawText(text,x,y,color){
 }
 
 drawText("Score",300,300,"white");
+
+
+function render(){
+    drawRect(0,0,canvas.width,canvas.height, "green");
+}
