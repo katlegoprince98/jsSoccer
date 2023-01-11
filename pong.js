@@ -74,4 +74,5 @@ function render(){
     drawNet();
     drawText(user.score,canvas.width/4,context.height/5,"WHITE");
     drawText(com.score,canvas.width/4,context.height/5,"WHITE");
-}
+    drawRect(user.x,user.y,user.width,user.height,user.color);
+    drawRect(com.x,com.y,com.width,com.height,com.color);
