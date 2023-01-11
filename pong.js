@@ -22,3 +22,13 @@ function drawCircle(x,y,r,color){
 }
 
 drawCircle(100,100,50,"white")
+
+function drawText(text,x,y,color){
+    context.font = "55px sans-serif";
+    context.fillStyle = color;
+    context.fillText(text, x,y);
+
+
+}
+
+drawText("Score",300,300,"whit");
