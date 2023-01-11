@@ -94,4 +94,6 @@ function game() {
  render();
 
 }
+const framePerSecond = 50;
 setInterval(game,1000/framePerSecond);
+
