@@ -7,3 +7,5 @@ function drawRect(x,y,w,h, color) {
     context.fillStyle = color;
     context.fillRect(x,y,w,h);  
 }
+
+drawRect(0,0,canvas.width,canvas.height, "green");
