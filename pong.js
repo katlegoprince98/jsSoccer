@@ -56,7 +56,7 @@ function drawCircle(x,y,r,color){
     context.fill();
 }
 
-drawCircle(100,100,50,"white")
+
 
 function drawText(text,x,y,color){
     context.font = "35px sans-serif";
@@ -65,8 +65,6 @@ function drawText(text,x,y,color){
 
 
 }
-
-drawText("Score",300,300,"white");
 
 
 function render(){
