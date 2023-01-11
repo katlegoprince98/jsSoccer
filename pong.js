@@ -3,6 +3,29 @@
 const canvas = document.getElementById('myCanvas');
 const context = canvas.getContext('2d');
 
+// create the user paddle
+
+const user = {
+    x:0,
+    y:canvas.height/2 - 100/2,
+    width: 10,
+    color:"WHITE",
+    score:0
+
+}
+
+// create the computer paddle
+
+const com = {
+    x:0,
+    y:canvas.height/2 - 100/2,
+    width: 10,
+    color:"WHITE",
+    score:0
+
+}
+
+
 function drawRect(x,y,w,h, color) {
     context.fillStyle = color;
     context.fillRect(x,y,w,h);  
